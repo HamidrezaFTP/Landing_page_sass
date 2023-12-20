@@ -1,0 +1,10 @@
+.btn-rounded-primary {
+    background-color: $white;
+    border-radius: 50rem;
+
+    &:hover {
+        background-color: $primary;
+        color: $white;
+        border: 0.1rem solid rgba($color: $white, $alpha: 0.6);
+    }
+}
